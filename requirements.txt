@@ -1,0 +1,11 @@
+# Local development/test environment (uv). The original training env is echo.yml (conda, CUDA 11.1).
+# Setup: uv venv --python 3.12 && uv pip install -r requirements.txt
+torch
+torchvision
+opencv-python-headless
+scipy
+numpy
+pandas
+scikit-learn
+tqdm
+pytest
